@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://dhclinicappv2stg.item-soft.co.il/Login.aspx" />
+<title>Register</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Register</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://dhclinicappv2stg.item-soft.co.il/Login.aspx?ReturnUrl=%2fdefault.aspx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=MainContent_LoginUser_RegisterHyperLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=MainContent_AddNewUser</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_UserName</td>
+	<td>DoctorJoker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_firstNameTxt</td>
+	<td>Yeree</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_lastNameTxt</td>
+	<td>Herre</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_Email</td>
+	<td>doctor333@yopmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_Password</td>
+	<td>ps{^M?#PM!</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_ConfirmPassword</td>
+	<td>ps{^M?#PM!</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_OrganizationDDL</td>
+	<td>label=רופאים פרטיים</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_PersonalIdTxt</td>
+	<td>332513936</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_ContactCellTxt</td>
+	<td>1212121</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_AddressTxt</td>
+	<td>rrr</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_HouseNumberTxt</td>
+	<td>rrr</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_RegisterUser_CreateUserStepContainer_CityTxt</td>
+	<td>rrr</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_RegisterUser_CreateUserStepContainer_birthdayTxt</td>
+	<td>2015-10-08</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MainContent_AddNewUser</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
